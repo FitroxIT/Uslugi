@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="Naglowek">Kreator doboru usług</h1>
+    <div class="container" id="wstep">
+        <div class="Wybory">
+            <button id="button">Przejdź do kreatora</button>
+        </div>
+    </div>
+
+    <div class="hidden" id="pytanie1">
+        <h1>Czy posiadasz stronę internetową?</h1>
+        
+        <div class="buttons">
+            <button id="Tak" value="tak" class="dalej">Tak</button>
+            <button id="Nie" value="nie" class="dalej">Nie</button>
+        </div>
+    </div>
+
+    <div class="hidden" id="pytanie2">
+        <h1>Główny cel strony internetowej</h1>
+        
+        <div class="buttons">
+            <button id="sprzedaz" value="sprzedarz" class="dalej2">Sprzedaż produktów</button>
+            <button id="zlecenia" value="zlecenia" class="dalej2">Pozyskiwanie zleceń</button>
+            <button id="marka" value="marka" class="dalej2">Budowa marki</button>
+        </div>
+    </div>
+
+    <div class="hidden" id="pytanie3">
+        <h1>Zasięg strony internetowej</h1>
+        
+        <div class="buttons">
+            <button id="lokalny" value="lokalny" class="dalej3">Lokalny</button>
+            <button id="ogolnopolski" value="ogolnopolski" class="dalej3">Ogólnopolski</button>
+        </div>
+    </div>
+
+    <div class="hidden" id="wynik">
+        <h1>Nasza rekomendacja:</h1>
+        <h2 id="wyniktxt"></h2>
+        <button id="ponow">Wybierz Ponownie</button>
+    </div>
+
+</body>
+</html>
