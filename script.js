@@ -87,6 +87,8 @@ document.querySelectorAll('.dalej3').forEach(button => {
     })
 })
 
+PONOW.style.backgroundColor = 'rgb(91, 147, 219)'
+
 PONOW.addEventListener('click', ()=>{
     wynik = ''
     WYNIK.classList.add('hidden')
