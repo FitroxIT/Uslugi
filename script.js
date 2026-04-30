@@ -95,3 +95,23 @@ PONOW.addEventListener('click', ()=>{
     PYTANIE1.classList.remove('hidden')
     PYTANIE1.classList.add('container')
 })
+
+
+//wysyłanie formularza
+
+const FORMULARZ = document.querySelector('#formularz')
+
+FORMULARZ.addEventListener('submit', async (e) => {
+    e.preventDefault()
+
+    const data = new FormData(FORMULARZ)
+
+    await fetch('https://formsubmit.co/ajax/jachasdomino253@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+    })
+
+    alert('Formulrz został wysłany')
+    FORMULARZ.reset()
+})
