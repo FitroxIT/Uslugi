@@ -196,6 +196,7 @@ input[type=submit]:hover {
 
 
 @media only screen and (max-width: 600px){
+    
     .kontakt2{
         display: none;
     }
@@ -209,8 +210,18 @@ input[type=submit]:hover {
     }
 
     .header{
-        top: 20px;
+        top: -40px;
     }
+
+    body{
+        overflow: scroll;
+    }
+
+    #wynik{
+        transform: translate(-50%, -57%);
+    }
+    
+    
 }
 
 
