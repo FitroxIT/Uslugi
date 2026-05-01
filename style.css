@@ -218,7 +218,7 @@ input[type=submit]:hover {
     }
 
     #wynik{
-        transform: translate(-50%, -57%);
+        transform: translate(-50%, -50%);
     }
     
     
